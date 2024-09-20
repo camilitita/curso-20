@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae</title>
- <style>
-     body {
-        font-family: Arial, sans-serif;
-        background-color: #a7d9e7;
-        margin: 0;
-        padding: 20px;
-     }
-     .container {
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #a7d9e7;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
             max-width: 800px;
             margin: auto;
             background-color: white;
@@ -19,15 +19,13 @@
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        
-     h1, h2 {
+        h1, h2 {
             color: #333;
         }
         .header {
             text-align: center;
             margin-bottom: 20px;
         }
-
         .header h1 {
             margin: 0;
             font-size: 2em;
@@ -35,28 +33,23 @@
         .section {
             margin-bottom: 20px;
         }
-
         .section h2 {
             border-bottom: 2px solid #333;
             padding-bottom: 5px;
         }
-
         .info {
             margin-bottom: 5px;
         }
-
         .contacto a {
             color: #007BFF;
             text-decoration: none;
         }
-
         .contacto a:hover {
             text-decoration: underline;
         }
         .formulario {
             margin-top: 30px;
         }
-
         .formulario input, .formulario textarea {
             width: 100%;
             padding: 10px;
@@ -64,7 +57,6 @@
             border: 1px solid #ccc;
             border-radius: 4px;
         }
-
         .formulario button {
             padding: 10px 20px;
             background-color: #007BFF;
@@ -73,69 +65,64 @@
             border-radius: 4px;
             cursor: pointer;
         }
-
         .formulario button:hover {
             background-color: #0056b3;
         }
-</style>
+    </style>
 </head>
- <body>
-   <div class="container">
-    <div class="header">
-        <img src="WhatsApp Image 2024-09-18 at 3.01.55 PM.jpeg" alt="mi foto" height="150px">
-        <h1>Camila Castillo</h1>
-        <p>Desarrolladora Web</p>
-        <p>Estudiante de Informática</p>
-
-    </div>
-   </div>
-   <div class="section">
-     <h2>Contacto</h2>
-     <p> Correo:<a href="mailto:camicas0118@gmail.com">camicas0118@gmail.com</p></a>
-     <p> Tlf: +58 412-896-9123 </p>
-    <p><a href=""></a></p>
-   </div>
-   <div class="section">
-    <h2>Experiencia</h2>
-    <p><strong>Florida Blue Healthcare</strong> – Customer Service Agent (10/23-04/24)</p>
-    <p>Entre mis responsabilidades estuvo:</p>
-    <ul>
-        <li>Manejo de bases de datos con información de clientes</li>
-        <li>Gestión de auditorías</li>
-        <li>Proporcionar asesorías personalizadas</li>
-        <li>Coordinar citas de cambio de información para clientes regulares</li>
-        <li>Contactar y distribuir la cartera de clientes a los agentes de ventas</li>
-    </ul>
-</div>
-
-<div class="section">
-    <h2>Educación</h2>
-    <p><strong>Instituto Universitario de Tecnología y Administración (IUTA)</strong> – T.S.U en informática (Cursando actualmente)</p>
-    <p>Mención en Inteligencia Artificial</p>
-</div>
-<div class="section">
-    <h2>Habilidades</h2>
-    <ul>
-        <li>Inglés Avanzado</li>
-        <li>Francés Intermedio</li>
-        <li>Manejo de Excel</li>
-        <li>Conocimientos en Python y MySQL</li>
-    </ul>
-</div>
-<div class="formulario">
-    <h2>Contáctame</h2>
-    <form action="enviar_formulario.php" method="POST">
-        <input type="text" name="nombre" placeholder="Nombre" required>
-        <input type="text" name="apellido" placeholder="Apellido" required>
-        <input type="email" name="correo" placeholder="Correo electrónico" required>
-        <textarea name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
-        <button type="submit">Enviar</button>
+<body>
+    <header class="container">
+        <div class="header">
+            <img src="WhatsApp Image 2024-09-18 at 3.01.55 PM.jpeg" alt="mi foto" height="150px">
+            <h1>Camila Castillo</h1>
+            <p>Desarrolladora Web</p>
+            <p>Estudiante de Informática</p>
+        </div>
+    </header>
+    <section class="section">
+        <h2>Contacto</h2>
+        <p> Correo:<a href="mailto:camicas0118@gmail.com">camicas0118@gmail.com</a></p>
+        <p> Tlf: +58 412-896-9123 </p>
+    </section>
+    <section class="section">
+        <h2>Experiencia</h2>
+        <p><strong>Florida Blue Healthcare</strong> – Customer Service Agent (10/23-04/24)</p>
+        <p>Entre mis responsabilidades estuvo:</p>
+        <ul>
+            <li>Manejo de bases de datos con información de clientes</li>
+            <li>Gestión de auditorías</li>
+            <li>Proporcionar asesorías personalizadas</li>
+            <li>Coordinar citas de cambio de información para clientes regulares</li>
+            <li>Contactar y distribuir la cartera de clientes a los agentes de ventas</li>
+        </ul>
+    </section>
+    <section class="section">
+        <h2>Educación</h2>
+        <p><strong>Instituto Universitario de Tecnología y Administración (IUTA)</strong> – T.S.U en informática (Cursando actualmente)</p>
+        <p>Mención en Inteligencia Artificial</p>
+    </section>
+    <section class="section">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Inglés Avanzado</li>
+            <li>Francés Intermedio</li>
+            <li>Manejo de Excel</li>
+            <li>Conocimientos en Python y MySQL</li>
+        </ul>
+    </section>
+    <section class="formulario">
+        <h2>Contáctame</h2>
+        <form action="enviar_formulario.php" method="POST">
+            <input type="text" name="nombre" placeholder="Nombre" required>
+            <input type="text" name="apellido" placeholder="Apellido" required>
+            <input type="email" name="correo" placeholder="Correo electrónico" required>
+            <textarea name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <form class="section">
+        <h2>Sígueme en mis redes</h2>
+        <p><a href="https://www.instagram.com/___cramberry" target="_blank">Instagram</a></p>
     </form>
-</div>
-<div class="section">
-    <h2>Sígueme en mis redes</h2>
-    <p><a href="https://www.instagram.com/___cramberry" target="_blank">Instagram</a></p>
-</div>
-</div>
- </body>
+</body>
 </html>
